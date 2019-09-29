@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/windows/Selenium-PROJEKTI/MavenSeleniumProject/src/test/java/SeleniumGuru99LIVE">
+        <classes>
+            <class name="SeleniumGuru99LIVE.TestHomePage">
+                <methods>
+                    <include name="VerifiHomeTitle"/>
+                    <include name="VerifiTitleSortMobileItem"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/windows/Selenium-PROJEKTI/MavenSeleniumProject/src/test/java/SeleniumGuru99LIVE(failed)">
+    <classes>
+      <class name="SeleniumGuru99LIVE.TestHomePage">
+        <methods>
+          <include name="SetUP"/>
+          <include name="tearDown"/>
+          <include name="VerifiTitleSortMobileItem"/>
+        </methods>
+      </class> <!-- SeleniumGuru99LIVE.TestHomePage -->
+    </classes>
+  </test> <!-- /windows/Selenium-PROJEKTI/MavenSeleniumProject/src/test/java/SeleniumGuru99LIVE(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
